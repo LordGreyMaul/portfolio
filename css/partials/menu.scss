@@ -13,8 +13,12 @@ nav .container-fluid {
   background-color: $maingreen;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: $maingreen;
   background-color: $maingreen;
+}
+.navbar-default {
+  background-color: $maingreen;
+  border-color: $maingreen;
 }
 .navbar-default .navbar-brand {
   color: $white;

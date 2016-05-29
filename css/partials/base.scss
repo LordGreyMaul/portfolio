@@ -93,6 +93,8 @@ header {
   margin-bottom: 25px;
   background: $maingreen;
   padding: 10px;
+  border-bottom: 10px solid $offpurple;
+margin-top: -100px;
   h2 {
     color: $white;
     @include font-size(7);
@@ -109,6 +111,40 @@ header {
     }
   }
 }
+//footer
+footer {
+  background: $maingreen;
+  border-top: 10px solid $offpurple;
+  width: 100%;
+  margin-top: 35px;
+  h1 {
+    font-family: 'Rock Salt', cursive;
+    color: $white;
+  }
+  hr {
+    border-top: 1px dashed $white;
+  }
+  hr:after {
+    content: '\002702';
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    left: 40px;
+    padding: 0 3px;
+    background: $maingreen;
+    color: $white;
+    font-size: 18px;
+  }
+  h4 {
+    color: $white;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  label {
+    color: $white;
+  }
+}
+
 //sidebar
 .sidebar {
   .aboutBox {

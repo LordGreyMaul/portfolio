@@ -5897,7 +5897,9 @@ header {
   text-align: center;
   margin-bottom: 25px;
   background: #27AE60;
-  padding: 10px; }
+  padding: 10px;
+  border-bottom: 10px solid #873DBB;
+  margin-top: -100px; }
   header h2 {
     color: #ffffff;
     font-size: 70px;
@@ -5911,6 +5913,33 @@ header {
     margin-top: 10px; }
     header ul li {
       display: inline; }
+
+footer {
+  background: #27AE60;
+  border-top: 10px solid #873DBB;
+  width: 100%;
+  margin-top: 35px; }
+  footer h1 {
+    font-family: 'Rock Salt', cursive;
+    color: #ffffff; }
+  footer hr {
+    border-top: 1px dashed #ffffff; }
+  footer hr:after {
+    content: '\002702';
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    left: 40px;
+    padding: 0 3px;
+    background: #27AE60;
+    color: #ffffff;
+    font-size: 18px; }
+  footer h4 {
+    color: #ffffff;
+    text-align: left;
+    padding-bottom: 10px; }
+  footer label {
+    color: #ffffff; }
 
 .sidebar .aboutBox {
   background: #27AE60;
@@ -5988,8 +6017,12 @@ nav .container-fluid {
   background-color: #27AE60; }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #27AE60;
   background-color: #27AE60; }
+
+.navbar-default {
+  background-color: #27AE60;
+  border-color: #27AE60; }
 
 .navbar-default .navbar-brand {
   color: #ffffff; }
@@ -6025,11 +6058,20 @@ nav .container-fluid {
   background: #27AE60;
   padding: 10px;
   text-align: center;
-  color: #ffffff;
-  float: right; }
+  color: #ffffff; }
   .button-prim:hover {
     background: #196E3D; }
   .button-prim:focus {
     background: #219452; }
+
+.button-off {
+  background: #873DBB;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff; }
+  .button-off:hover {
+    background: #2B133B; }
+  .button-off:focus {
+    background: #59287B; }
 
 /*# sourceMappingURL=main.css.map */

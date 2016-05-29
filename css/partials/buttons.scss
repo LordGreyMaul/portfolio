@@ -3,11 +3,24 @@
   padding:10px;
   text-align: center;
   color: $white;
-  float: right;
+
   &:hover {
     background: $hovergreen;
   }
   &:focus {
     background: $focusgreen;
+  }
+}
+.button-off {
+  background: $offpurple;
+  padding:10px;
+  text-align: center;
+  color: $white;
+
+  &:hover {
+    background: $hoverpurple;
+  }
+  &:focus {
+    background: $focuspurple;
   }
 }
