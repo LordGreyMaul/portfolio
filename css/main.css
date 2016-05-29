@@ -1,0 +1,100 @@
+/* 
+    Created on : Mar 15, 2015, 8:00:20 AM
+    Author     : graham morby-raybould
+*/
+/* 
+    Created on : Mar 15, 2015, 8:00:20 AM
+    Author     : graham morby-raybould
+*/
+/* line 9, partials/base.scss */
+.background1 {
+  background: url(../img/background2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: background 2.5s ease-in-out;
+}
+
+/* line 17, partials/base.scss */
+.background2 {
+  background: url(../img/background1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: background 2.5s ease-in-out;
+}
+
+/* line 28, partials/base.scss */
+.fullscreenDiv {
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  top: 0px;
+  left: 0;
+  position: absolute;
+}
+
+/* line 37, partials/base.scss */
+.center {
+  position: absolute;
+  width: 250px;
+  text-align: center;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -120px;
+  color: #FFFFFF;
+  font-family: 'Rock Salt', cursive;
+}
+
+/* line 49, partials/base.scss */
+.social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+/* line 54, partials/base.scss */
+.social li {
+  display: inline;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2015, 8:38:35 AM
+    Author     : graham morby-raybould
+*/
+/* line 11, partials/menu.scss */
+.fa-facebook-official {
+  font-size: 3em !important;
+  color: #3B5998;
+  text-shadow: 1.25px 1.25px #000000;
+}
+
+/* line 16, partials/menu.scss */
+.fa-twitter {
+  font-size: 3em !important;
+  color: #4099FF;
+  text-shadow: 1.25px 1.25px #000000;
+}
+
+/* line 21, partials/menu.scss */
+.fa-google-plus-square {
+  font-size: 3em !important;
+  color: #D50F25;
+  text-shadow: 1.25px 1.25px #000000;
+}
+
+/* line 26, partials/menu.scss */
+.fa-linkedin-square {
+  font-size: 3em !important;
+  color: #007bb6;
+  text-shadow: 1.25px 1.25px #000000;
+}

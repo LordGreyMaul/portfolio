@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2015, 8:38:35 AM
+    Author     : graham morby-raybould
+*/
+/* line 11, menu.scss */
+.fa-facebook-official {
+  font-size: 3em !important;
+  color: #3B5998;
+  text-shadow: 1.25px 1.25px #000000;
+}
+
+/* line 16, menu.scss */
+.fa-twitter {
+  font-size: 3em !important;
+  color: #4099FF;
+  text-shadow: 1.25px 1.25px #000000;
+}
+
+/* line 21, menu.scss */
+.fa-google-plus-square {
+  font-size: 3em !important;
+  color: #D50F25;
+  text-shadow: 1.25px 1.25px #000000;
+}
+
+/* line 26, menu.scss */
+.fa-linkedin-square {
+  font-size: 3em !important;
+  color: #007bb6;
+  text-shadow: 1.25px 1.25px #000000;
+}

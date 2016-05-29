@@ -1,0 +1,61 @@
+
+/* 
+    Created on : Mar 15, 2015, 8:00:20 AM
+    Author     : graham morby-raybould
+*/
+
+// body styles 
+
+    .background1 {
+  background: url(../img/background2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: background 1.5s linear;
+    }
+     .background2 {
+  background: url(../img/background1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: background 1.5s linear;
+    }
+
+
+//page one styles
+.fullscreenDiv {
+  
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 0px;
+    left: 0;
+    position: absolute;
+}
+.center {
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -120px;
+    color: #FFFFFF;
+    font-family: 'Rock Salt', cursive;
+}
+.social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    li {
+        display: inline;
+    }
+}
+
+
+ 
+
