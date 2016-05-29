@@ -3,10 +3,12 @@
     Created on : Mar 15, 2015, 8:00:20 AM
     Author     : graham morby-raybould
 */
+// body styles
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
-// body styles 
-
-    .background1 {
+.background1 {
   background: url(../img/background2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,7 +16,7 @@
   background-size: cover;
   transition: background 1.5s linear;
     }
-     .background2 {
+.background2 {
   background: url(../img/background1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -22,7 +24,20 @@
   background-size: cover;
   transition: background 1.5s linear;
     }
-
+hr.style16 {
+  border-top: 1px dashed #8c8b8b;
+}
+hr.style16:after {
+  content: '\002702';
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  left: 40px;
+  padding: 0 3px;
+  background: $white;
+  color: #8c8b8b;
+  font-size: 18px;
+}
 
 //page one styles
 .fullscreenDiv {
@@ -45,6 +60,11 @@
     margin-left: -120px;
     color: #FFFFFF;
     font-family: 'Rock Salt', cursive;
+  .enter{
+    margin-top: 10px;
+    color: #ffffff;
+    @include font-size(3);
+  }
 }
 .social {
     list-style-type: none;
@@ -54,8 +74,93 @@
     li {
         display: inline;
     }
+
 }
 
+//main header
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+  h2 {
+    color: $maingreen;
+    @include font-size(9.5);
+  }
+
+  ul {
+    font-weight: bold;
+    @include font-size(2);
+    color: $offpurple;
+    margin-top: 10px;
+    li {
+      display: inline;
+    }
+  }
+  //social links
+  .fa-facebook-official {
+    font-size: 2em !important;
+    color: #3B5998;
+    text-shadow: none;
+  }
+  .fa-twitter {
+    font-size: 2em !important;
+    color: #4099FF;
+    text-shadow: none;
+  }
+  .fa-google-plus-square {
+    font-size: 2em !important;
+    color: #D50F25;
+    text-shadow: none;
+  }
+  .fa-linkedin-square {
+    font-size: 2em !important;
+    color:#007bb6;
+    text-shadow: none;
+  }
+}
+//sidebar
+.sidebar {
+  .aboutBox {
+    background: $maingreen;
+    color: $white;
+    padding: 3px 10px 15px 10px;
+    h3 {
+      font-family: 'Rock Salt', cursive;
+    }
+    hr {
+      border-top: 1px dashed $white;
+    }
+    hr:after {
+      content: '\002702';
+      display: inline-block;
+      position: relative;
+      top: -12px;
+      left: 40px;
+      padding: 0 3px;
+      background: $maingreen;
+      color: $white;
+      font-size: 18px;
+    }
+  }
+  .latestblogpost {
+    padding: 3px 10px 15px 10px;
+    h3 {
+      font-family: 'Rock Salt', cursive;
+      color: $maingreen;
+    }
+    p {
+      margin-top: 4px;
+    }
+  }
+}
+
+//home page
+.homePage {
+  h1 {
+    font-family: 'Rock Salt', cursive;
+    color: $maingreen;
+  }
+}
 
  
 

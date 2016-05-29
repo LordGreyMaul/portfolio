@@ -8,6 +8,29 @@ and open the template in the editor.
     Author     : graham morby-raybould
 */
 
+//main-nav
+nav .container-fluid {
+  background-color: $maingreen;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+  background-color: $maingreen;
+}
+.navbar-default .navbar-brand {
+  color: $white;
+  &:hover {
+    color: $hoverpurple;
+  }
+}
+.navbar-default .navbar-nav > li > a {
+  color: $white;
+  &:hover {
+    color: $hoverpurple;
+  }
+}
+
+
+//social links
 .fa-facebook-official {
     font-size: 3em !important;
     color: #3B5998;

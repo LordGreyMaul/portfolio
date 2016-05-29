@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Graham Morby-Raybould | Welcome</title>
-    <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -14,7 +13,8 @@
 <div class='fullscreenDiv'>
     <div class="center"><p>Graham Morby-Raybould</p>
         <p>Front End & PHP Web Developer</p>
-
+        <hr class="style16">
+        <a href="home.php" class="enter">ENTER</a>
         <ul class="social">
             <li><a href="https://www.facebook.com/tremonster82" target="_blank"><span class="fa fa-facebook-official"></span></a></li>
             <li><a href="https://twitter.com/phoenixmorby" target="_blank"><span class="fa fa-twitter"></span></a></li>

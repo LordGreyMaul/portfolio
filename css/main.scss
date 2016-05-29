@@ -2,6 +2,34 @@
 /* 
     Created on : Mar 15, 2015, 8:00:20 AM
     Author     : graham morby-raybould
+    frameworks : bootstrap 3
 */
+//mixins
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+// Variables
+
+
+//Main Color
+$maingreen: #27AE60;
+$hovergreen: #196E3D;
+$focusgreen: #219452;
+
+//Off Color
+$offpurple: #873DBB;
+$hoverpurple: #2B133B;
+$focus: #59287B;
+
+//generic colors
+$white: #ffffff;
+$black: #000000;
+
+
+
+//imports
+@import ".sass-cache/assets/stylesheets/bootstrap.scss";
 @import "partials/base.scss";
 @import "partials/menu.scss";
