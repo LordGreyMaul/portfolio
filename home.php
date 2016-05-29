@@ -5,7 +5,7 @@ include ("inc/header.php");
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div class="col-md-7 homePage">
+            <div class="col-md-8 homePage">
                 <h1>Welcome</h1>
                 <hr class="style16">
                 <p>
@@ -32,8 +32,32 @@ include ("inc/header.php");
                     bar pie. Fruitcake toffee jelly beans oat cake. I love lemon drops tootsie roll cheesecake danish
                     powder.
                 </p>
+                <div class="skillset">
+                    <h1>Skillset</h1>
+                    <hr class="style16">
+                    <table class="table-responsive table-bordered">
+                        <tr>
+                            <td>HTML 5</td>
+                            <td>SCSS</td>
+                            <td>CSS</td>
+                            <td>Javascript</td>
+                        </tr>
+                        <tr>
+                            <td>PHP</td>
+                            <td>GIT</td>
+                            <td>Jira</td>
+                            <td>.NET MVC</td>
+                        </tr>
+                        <tr>
+                            <td>Responsive Design</td>
+                            <td>Photoshop</td>
+                            <td>Fireworks</td>
+                            <td>Agile</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
                <?php include ("inc/sidebar.php");?>
             </div>
         </div>

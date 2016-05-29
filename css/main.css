@@ -5851,6 +5851,15 @@ hr.style16:after {
   color: #8c8b8b;
   font-size: 18px; }
 
+table {
+  width: 100%; }
+  table td {
+    text-align: center;
+    font-size: 20px;
+    font-size: 2rem;
+    padding: 5px;
+    color: #2B133B; }
+
 .fullscreenDiv {
   width: 100%;
   height: auto;
@@ -5886,11 +5895,14 @@ hr.style16:after {
 
 header {
   text-align: center;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  background: #27AE60;
+  padding: 10px; }
   header h2 {
-    color: #27AE60;
-    font-size: 95px;
-    font-size: 9.5rem; }
+    color: #ffffff;
+    font-size: 70px;
+    font-size: 7rem;
+    font-family: 'Rock Salt', cursive; }
   header ul {
     font-weight: bold;
     font-size: 20px;
@@ -5899,22 +5911,6 @@ header {
     margin-top: 10px; }
     header ul li {
       display: inline; }
-  header .fa-facebook-official {
-    font-size: 2em !important;
-    color: #3B5998;
-    text-shadow: none; }
-  header .fa-twitter {
-    font-size: 2em !important;
-    color: #4099FF;
-    text-shadow: none; }
-  header .fa-google-plus-square {
-    font-size: 2em !important;
-    color: #D50F25;
-    text-shadow: none; }
-  header .fa-linkedin-square {
-    font-size: 2em !important;
-    color: #007bb6;
-    text-shadow: none; }
 
 .sidebar .aboutBox {
   background: #27AE60;
@@ -5934,17 +5930,50 @@ header {
     background: #27AE60;
     color: #ffffff;
     font-size: 18px; }
+  .sidebar .aboutBox .fa-facebook-official {
+    font-size: 2em !important;
+    color: #3B5998;
+    text-shadow: none; }
+  .sidebar .aboutBox .fa-twitter {
+    font-size: 2em !important;
+    color: #4099FF;
+    text-shadow: none; }
+  .sidebar .aboutBox .fa-google-plus-square {
+    font-size: 2em !important;
+    color: #D50F25;
+    text-shadow: none; }
+  .sidebar .aboutBox .fa-linkedin-square {
+    font-size: 2em !important;
+    color: #007bb6;
+    text-shadow: none; }
+  .sidebar .aboutBox .socialLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    background: #ffffff; }
+    .sidebar .aboutBox .socialLinks li {
+      display: inline; }
 .sidebar .latestblogpost {
   padding: 3px 10px 15px 10px; }
   .sidebar .latestblogpost h3 {
     font-family: 'Rock Salt', cursive;
     color: #27AE60; }
   .sidebar .latestblogpost p {
-    margin-top: 4px; }
+    margin-top: 4px;
+    padding: 10px; }
 
 .homePage h1 {
   font-family: 'Rock Salt', cursive;
   color: #27AE60; }
+.homePage .skillset {
+  padding-top: 10px; }
+  .homePage .skillset ul {
+    list-style: none; }
+    .homePage .skillset ul li {
+      font-size: 20px;
+      font-size: 2rem; }
 
 /*
 To change this license header, choose License Headers in Project Properties.
@@ -5991,5 +6020,16 @@ nav .container-fluid {
   font-size: 3em !important;
   color: #007bb6;
   text-shadow: 1.25px 1.25px #000000; }
+
+.button-prim {
+  background: #27AE60;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+  float: right; }
+  .button-prim:hover {
+    background: #196E3D; }
+  .button-prim:focus {
+    background: #219452; }
 
 /*# sourceMappingURL=main.css.map */

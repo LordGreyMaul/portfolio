@@ -1,0 +1,13 @@
+.button-prim {
+  background: $maingreen;
+  padding:10px;
+  text-align: center;
+  color: $white;
+  float: right;
+  &:hover {
+    background: $hovergreen;
+  }
+  &:focus {
+    background: $focusgreen;
+  }
+}

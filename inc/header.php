@@ -26,13 +26,7 @@ include ("inc/nav.php");
                     <li>Consultant |</li>
                     <li>Enthusiast</li>
                 </ul>
-                <ul class="social">
-                    <li><a href="https://www.facebook.com/tremonster82" target="_blank"><span class="fa fa-facebook-official"></span></a></li>
-                    <li><a href="https://twitter.com/phoenixmorby" target="_blank"><span class="fa fa-twitter"></span></a></li>
-                    <li><a href="https://plus.google.com/u/0/+GrahamMorbyRaybould/posts" target="_blank"><span class="fa fa-google-plus-square"></span></a></li>
-                    <li><a href="https://www.linkedin.com/hp/?dnr=AyqzdkWjzUQ_xc4RAX_zqkm4GUJltcW05tDn" target="_blank"><span class="fa fa-linkedin-square"></span></a></li>
-                </ul>
-            </div>
+               </div>
         </div>
     </div>
 </header>

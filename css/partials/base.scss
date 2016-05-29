@@ -38,6 +38,15 @@ hr.style16:after {
   color: #8c8b8b;
   font-size: 18px;
 }
+table {
+  width: 100%;
+  td {
+    text-align: center;
+    @include font-size(2);
+    padding: 5px;
+    color: $hoverpurple;
+  }
+}
 
 //page one styles
 .fullscreenDiv {
@@ -82,9 +91,12 @@ hr.style16:after {
 header {
   text-align: center;
   margin-bottom: 25px;
+  background: $maingreen;
+  padding: 10px;
   h2 {
-    color: $maingreen;
-    @include font-size(9.5);
+    color: $white;
+    @include font-size(7);
+    font-family: 'Rock Salt', cursive;
   }
 
   ul {
@@ -95,27 +107,6 @@ header {
     li {
       display: inline;
     }
-  }
-  //social links
-  .fa-facebook-official {
-    font-size: 2em !important;
-    color: #3B5998;
-    text-shadow: none;
-  }
-  .fa-twitter {
-    font-size: 2em !important;
-    color: #4099FF;
-    text-shadow: none;
-  }
-  .fa-google-plus-square {
-    font-size: 2em !important;
-    color: #D50F25;
-    text-shadow: none;
-  }
-  .fa-linkedin-square {
-    font-size: 2em !important;
-    color:#007bb6;
-    text-shadow: none;
   }
 }
 //sidebar
@@ -141,6 +132,38 @@ header {
       color: $white;
       font-size: 18px;
     }
+    //social links
+    .fa-facebook-official {
+      font-size: 2em !important;
+      color: #3B5998;
+      text-shadow: none;
+    }
+    .fa-twitter {
+      font-size: 2em !important;
+      color: #4099FF;
+      text-shadow: none;
+    }
+    .fa-google-plus-square {
+      font-size: 2em !important;
+      color: #D50F25;
+      text-shadow: none;
+    }
+    .fa-linkedin-square {
+      font-size: 2em !important;
+      color:#007bb6;
+      text-shadow: none;
+    }
+    .socialLinks {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+      text-align: center;
+      background:$white;
+      li {
+        display: inline;
+      }
+    }
   }
   .latestblogpost {
     padding: 3px 10px 15px 10px;
@@ -150,6 +173,7 @@ header {
     }
     p {
       margin-top: 4px;
+      padding: 10px;
     }
   }
 }
@@ -159,6 +183,15 @@ header {
   h1 {
     font-family: 'Rock Salt', cursive;
     color: $maingreen;
+  }
+  .skillset {
+    padding-top: 10px;
+    ul {
+      list-style: none;
+      li {
+        @include font-size(2);
+      }
+    }
   }
 }
 
