@@ -8,6 +8,8 @@ include ("inc/header.php");
             <div class="col-md-8 homePage">
                 <h1>Welcome</h1>
                 <hr class="style16">
+                <img src="img/background1.jpg" class="img-responsive" alt="welcome">
+                <br>
                 <p>
                     Jelly-o cheesecake caramels. I love sesame snaps chocolate cake marshmallow fruitcake topping.
                     Chocolate cake caramels croissant I love brownie sugar plum gummies. Pudding cotton candy powder
