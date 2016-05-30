@@ -23,6 +23,16 @@ include("inc/header.php");
                         where the green comes from.
                     </p>
                 </div>
+                <p>My passion is web development and all things internet, I love to learn new ways to make cool things. Be it a website or application that helps
+                take a business to the next level. For many years I have worked in the front end and now I see myself as a back end developer, with my ever growing
+                portfolio giving me the push to make all this happen. I have taken on projects that are well out of my skills set to try and tackle the issues it
+                bring up, I love to get my teeth in to a large build and really push the limits of what I know and what I need to learn.</p>
+                <p>
+                    Training for me is a daily task, like eating my breakfast or brushing my teeth I always try and learn something new every day, not only from
+                    the wonderful developers I have met along the way but also I use a service call Treehouse which has been 100% fully behind my web developing
+                    work life. The school has wonderful content and teachers which has pushed me to fill my mind with so much, you can check out my profile
+                    <a href="https://teamtreehouse.com/grahammorbyraybould" target="_blank">here</a>
+                </p>
             </div>
             <div class="col-md-4">
                 <?php include("inc/sidebar.php");?>
