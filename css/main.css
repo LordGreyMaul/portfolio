@@ -5896,12 +5896,9 @@ table {
 header {
   text-align: center;
   margin-bottom: 25px;
-  background: #27AE60;
-  padding: 10px;
-  border-bottom: 10px solid #873DBB;
-  margin-top: -100px; }
+  padding: 10px; }
   header h2 {
-    color: #ffffff;
+    color: #27AE60;
     font-size: 70px;
     font-size: 7rem;
     font-family: 'Rock Salt', cursive; }
@@ -5959,31 +5956,6 @@ footer {
     background: #27AE60;
     color: #ffffff;
     font-size: 18px; }
-  .sidebar .aboutBox .fa-facebook-official {
-    font-size: 2em !important;
-    color: #3B5998;
-    text-shadow: none; }
-  .sidebar .aboutBox .fa-twitter {
-    font-size: 2em !important;
-    color: #4099FF;
-    text-shadow: none; }
-  .sidebar .aboutBox .fa-google-plus-square {
-    font-size: 2em !important;
-    color: #D50F25;
-    text-shadow: none; }
-  .sidebar .aboutBox .fa-linkedin-square {
-    font-size: 2em !important;
-    color: #007bb6;
-    text-shadow: none; }
-  .sidebar .aboutBox .socialLinks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    text-align: center;
-    background: #ffffff; }
-    .sidebar .aboutBox .socialLinks li {
-      display: inline; }
 .sidebar .latestblogpost {
   padding: 3px 10px 15px 10px; }
   .sidebar .latestblogpost h3 {
@@ -5992,6 +5964,41 @@ footer {
   .sidebar .latestblogpost p {
     margin-top: 4px;
     padding: 10px; }
+.sidebar .sociallinksside {
+  padding: 3px 10px 15px 10px; }
+  .sidebar .sociallinksside h3 {
+    font-family: 'Rock Salt', cursive;
+    color: #27AE60; }
+  .sidebar .sociallinksside .fa-facebook-official {
+    font-size: 3em !important;
+    color: #3B5998;
+    text-shadow: none; }
+  .sidebar .sociallinksside .fa-twitter {
+    font-size: 3em !important;
+    color: #4099FF;
+    text-shadow: none; }
+  .sidebar .sociallinksside .fa-google-plus-square {
+    font-size: 3em !important;
+    color: #D50F25;
+    text-shadow: none; }
+  .sidebar .sociallinksside .fa-linkedin-square {
+    font-size: 3em !important;
+    color: #007bb6;
+    text-shadow: none; }
+  .sidebar .sociallinksside .socialLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    background: #ffffff; }
+    .sidebar .sociallinksside .socialLinks li {
+      display: inline; }
+.sidebar .twitter {
+  padding: 3px 10px 15px 10px; }
+  .sidebar .twitter h3 {
+    font-family: 'Rock Salt', cursive;
+    color: #27AE60; }
 
 .homePage h1 {
   font-family: 'Rock Salt', cursive;
@@ -6003,6 +6010,10 @@ footer {
     .homePage .skillset ul li {
       font-size: 20px;
       font-size: 2rem; }
+
+.aboutpage h1 {
+  font-family: 'Rock Salt', cursive;
+  color: #27AE60; }
 
 /*
 To change this license header, choose License Headers in Project Properties.

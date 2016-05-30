@@ -14,8 +14,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact Me</a></li>

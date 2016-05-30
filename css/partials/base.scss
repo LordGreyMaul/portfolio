@@ -91,12 +91,9 @@ table {
 header {
   text-align: center;
   margin-bottom: 25px;
-  background: $maingreen;
   padding: 10px;
-  border-bottom: 10px solid $offpurple;
-margin-top: -100px;
   h2 {
-    color: $white;
+    color: $maingreen;
     @include font-size(7);
     font-family: 'Rock Salt', cursive;
   }
@@ -168,24 +165,42 @@ footer {
       color: $white;
       font-size: 18px;
     }
+   }
+  .latestblogpost {
+    padding: 3px 10px 15px 10px;
+    h3 {
+      font-family: 'Rock Salt', cursive;
+      color: $maingreen;
+    }
+    p {
+      margin-top: 4px;
+      padding: 10px;
+    }
+  }
+  .sociallinksside {
+    padding: 3px 10px 15px 10px;
+    h3 {
+      font-family: 'Rock Salt', cursive;
+      color: $maingreen;
+    }
     //social links
     .fa-facebook-official {
-      font-size: 2em !important;
+      font-size: 3em !important;
       color: #3B5998;
       text-shadow: none;
     }
     .fa-twitter {
-      font-size: 2em !important;
+      font-size: 3em !important;
       color: #4099FF;
       text-shadow: none;
     }
     .fa-google-plus-square {
-      font-size: 2em !important;
+      font-size: 3em !important;
       color: #D50F25;
       text-shadow: none;
     }
     .fa-linkedin-square {
-      font-size: 2em !important;
+      font-size: 3em !important;
       color:#007bb6;
       text-shadow: none;
     }
@@ -201,15 +216,11 @@ footer {
       }
     }
   }
-  .latestblogpost {
+  .twitter {
     padding: 3px 10px 15px 10px;
     h3 {
       font-family: 'Rock Salt', cursive;
       color: $maingreen;
-    }
-    p {
-      margin-top: 4px;
-      padding: 10px;
     }
   }
 }
@@ -231,5 +242,12 @@ footer {
   }
 }
 
+//about page
+.aboutpage {
+  h1 {
+    font-family: 'Rock Salt', cursive;
+    color: $maingreen;
+  }
+}
  
 
