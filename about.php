@@ -33,6 +33,7 @@ include("inc/header.php");
                     work life. The school has wonderful content and teachers which has pushed me to fill my mind with so much, you can check out my profile
                     <a href="https://teamtreehouse.com/grahammorbyraybould" target="_blank">here</a>
                 </p>
+                <img class="img-responsive" src="img/abouthpoto.jpg" alt="code view on mac">
             </div>
             <div class="col-md-4">
                 <?php include("inc/sidebar.php");?>

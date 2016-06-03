@@ -10,14 +10,23 @@ and open the template in the editor.
 
 //main-nav
 nav .container-fluid {
-  background-color: $maingreen;
+  background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#00c535),color-stop(100%,#00a32e));
+  background-image: -moz-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: -webkit-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: linear-gradient(to bottom,#00c535 0,#00a32e 100%);
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: $maingreen;
-  background-color: $maingreen;
+  background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#00c535),color-stop(100%,#00a32e));
+  background-image: -moz-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: -webkit-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: linear-gradient(to bottom,#00c535 0,#00a32e 100%);
 }
 .navbar-default {
-  background-color: $maingreen;
+  background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#00c535),color-stop(100%,#00a32e));
+  background-image: -moz-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: -webkit-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: linear-gradient(to bottom,#00c535 0,#00a32e 100%);
   border-color: $maingreen;
 }
 .navbar-default .navbar-brand {

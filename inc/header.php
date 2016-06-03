@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Graham Morby-Raybould | <?php echo $pagetitle ?></title>
     <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <script src="js/vendor/modernizr.js"></script>

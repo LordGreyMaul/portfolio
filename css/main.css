@@ -5819,7 +5819,7 @@ button.close {
     Author     : graham morby-raybould
 */
 body {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Josefin Sans', sans-serif; }
 
 .background1 {
   background: url(../img/background2.jpg) no-repeat center center fixed;
@@ -5898,10 +5898,14 @@ header {
   margin-bottom: 25px;
   padding: 10px; }
   header h2 {
-    color: #27AE60;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#00c535, #00a32e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 70px;
     font-size: 7rem;
-    font-family: 'Rock Salt', cursive; }
+    font-family: 'Rock Salt', cursive;
+    height: 91px; }
   header ul {
     font-weight: bold;
     font-size: 20px;
@@ -5912,7 +5916,10 @@ header {
       display: inline; }
 
 footer {
-  background: #27AE60;
+  background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #00c535), color-stop(100%, #00a32e));
+  background-image: -moz-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: -webkit-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: linear-gradient(to bottom, #00c535 0, #00a32e 100%);
   border-top: 10px solid #873DBB;
   width: 100%;
   margin-top: 35px; }
@@ -5939,7 +5946,10 @@ footer {
     color: #ffffff; }
 
 .sidebar .aboutBox {
-  background: #27AE60;
+  background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #00c535), color-stop(100%, #00a32e));
+  background-image: -moz-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: -webkit-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: linear-gradient(to bottom, #00c535 0, #00a32e 100%);
   color: #ffffff;
   padding: 3px 10px 15px 10px; }
   .sidebar .aboutBox h3 {
@@ -5953,14 +5963,14 @@ footer {
     top: -12px;
     left: 40px;
     padding: 0 3px;
-    background: #27AE60;
+    background: #00c535;
     color: #ffffff;
     font-size: 18px; }
 .sidebar .latestblogpost {
   padding: 3px 10px 15px 10px; }
   .sidebar .latestblogpost h3 {
     font-family: 'Rock Salt', cursive;
-    color: #27AE60; }
+    color: #00c535; }
   .sidebar .latestblogpost p {
     margin-top: 4px;
     padding: 10px; }
@@ -6025,14 +6035,23 @@ and open the template in the editor.
     Author     : graham morby-raybould
 */
 nav .container-fluid {
-  background-color: #27AE60; }
+  background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #00c535), color-stop(100%, #00a32e));
+  background-image: -moz-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: -webkit-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: linear-gradient(to bottom, #00c535 0, #00a32e 100%); }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: #27AE60;
-  background-color: #27AE60; }
+  background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #00c535), color-stop(100%, #00a32e));
+  background-image: -moz-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: -webkit-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: linear-gradient(to bottom, #00c535 0, #00a32e 100%); }
 
 .navbar-default {
-  background-color: #27AE60;
+  background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #00c535), color-stop(100%, #00a32e));
+  background-image: -moz-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: -webkit-linear-gradient(top, #00c535 0, #00a32e 100%);
+  background-image: linear-gradient(to bottom, #00c535 0, #00a32e 100%);
   border-color: #27AE60; }
 
 .navbar-default .navbar-brand {

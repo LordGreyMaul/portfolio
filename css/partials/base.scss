@@ -5,8 +5,10 @@
 */
 // body styles
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
+
 
 .background1 {
   background: url(../img/background2.jpg) no-repeat center center fixed; 
@@ -93,9 +95,13 @@ header {
   margin-bottom: 25px;
   padding: 10px;
   h2 {
-    color: $maingreen;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#00c535, #00a32e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     @include font-size(7);
     font-family: 'Rock Salt', cursive;
+    height: 91px;
   }
 
   ul {
@@ -110,7 +116,10 @@ header {
 }
 //footer
 footer {
-  background: $maingreen;
+  background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#00c535),color-stop(100%,#00a32e));
+  background-image: -moz-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: -webkit-linear-gradient(top,#00c535 0,#00a32e 100%);
+  background-image: linear-gradient(to bottom,#00c535 0,#00a32e 100%);
   border-top: 10px solid $offpurple;
   width: 100%;
   margin-top: 35px;
@@ -145,7 +154,10 @@ footer {
 //sidebar
 .sidebar {
   .aboutBox {
-    background: $maingreen;
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#00c535),color-stop(100%,#00a32e));
+    background-image: -moz-linear-gradient(top,#00c535 0,#00a32e 100%);
+    background-image: -webkit-linear-gradient(top,#00c535 0,#00a32e 100%);
+    background-image: linear-gradient(to bottom,#00c535 0,#00a32e 100%);
     color: $white;
     padding: 3px 10px 15px 10px;
     h3 {
@@ -161,7 +173,7 @@ footer {
       top: -12px;
       left: 40px;
       padding: 0 3px;
-      background: $maingreen;
+      background: #00c535;
       color: $white;
       font-size: 18px;
     }
@@ -170,7 +182,7 @@ footer {
     padding: 3px 10px 15px 10px;
     h3 {
       font-family: 'Rock Salt', cursive;
-      color: $maingreen;
+      color: #00c535;
     }
     p {
       margin-top: 4px;

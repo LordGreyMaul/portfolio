@@ -8,7 +8,7 @@ include ("inc/header.php");
             <div class="col-md-8 homePage">
                 <h1>Welcome</h1>
                 <hr class="style16">
-                <img src="img/background1.jpg" class="img-responsive" alt="welcome">
+                <img src="img/portsmouth.jpg" class="img-responsive" alt="welcome">
                 <br>
                 <p>
                     Jelly-o cheesecake caramels. I love sesame snaps chocolate cake marshmallow fruitcake topping.
