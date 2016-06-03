@@ -1,3 +1,6 @@
+<?php
+include ("functions.php");
+?>
 <div class="sidebar">
     <div class="aboutBox">
     <h3>About Me</h3>
@@ -10,15 +13,14 @@
         is to be at the forefront of an industry that is all ways progressing.</p>
     </div>
     <div class="latestblogpost">
-        <h3>Latest Blog Post</h3>
-        <hr class="style16">
-        <img src="img/background1.jpg" src="variable for post name" class="img-responsive center-block" width="70%">
-        <p>Bacon ipsum dolor amet corned beef salami tongue tenderloin filet mignon t-bone chuck venison
-            chicken tail tri-tip. Spare ribs cupim picanha capicola. Pork loin cow kielbasa chicken tail.
-            Meatloaf porchetta strip steak short loin. Landjaeger
-            tenderloin chicken, picanha sirloin pork ground round doner.
-        </p>
-        <a href="#" class="button-prim">Read More</a>
+        <?php
+        $posts = full_blog_array();
+        foreach ($posts as $post){
+       echo"<h3>" . $post["title"] . "</h3>";
+
+
+        };
+?>
     </div>
     <div class="sociallinksside">
         <h3>Follow Me</h3>

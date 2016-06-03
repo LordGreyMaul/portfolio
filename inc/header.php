@@ -12,6 +12,7 @@
 </head>
 <body>
 <?php
+include ("inc/functions.php");
 include ("inc/nav.php");
 ?>
 <header>
