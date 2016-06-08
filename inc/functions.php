@@ -7,7 +7,12 @@ function full_blog_array() {
     } catch (Exception $e){
         echo "Unable to get results";
         exit;
-    }
+    };
     $blog = $results->fetchAll();
     return $blog;
-};
+}
+
+function get_blog_html($id , $item){
+    $output = "<h3>" . $item["title"] . "</h3>";
+    return $output;
+}

@@ -1,6 +1,4 @@
-<?php
-include ("functions.php");
-?>
+
 <div class="sidebar">
     <div class="aboutBox">
     <h3>About Me</h3>
@@ -13,14 +11,14 @@ include ("functions.php");
         is to be at the forefront of an industry that is all ways progressing.</p>
     </div>
     <div class="latestblogpost">
+        <h3>Latest Posts</h3>
+        <hr class="style16">
         <?php
-        $posts = full_blog_array();
-        foreach ($posts as $post){
-       echo"<h3>" . $post["title"] . "</h3>";
-
-
+        $random  = array_rand($posts, 1);
+        foreach ($random as $id){
+            echo get_blog_html($id, $posts[$id]);
         };
-?>
+        ?>
     </div>
     <div class="sociallinksside">
         <h3>Follow Me</h3>
